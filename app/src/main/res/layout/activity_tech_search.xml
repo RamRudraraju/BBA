@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tech_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kittu.bba.TechSearch">
+
+    <Button
+        android:text="Tech Job Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:id="@+id/jSearch"
+        android:layout_alignRight="@+id/iSearch"
+        android:layout_alignEnd="@+id/iSearch"
+        android:layout_alignLeft="@+id/iSearch"
+        android:layout_alignStart="@+id/iSearch" />
+
+    <Button
+        android:text="Internship Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jSearch"
+        android:layout_marginTop="36dp"
+        android:id="@+id/iSearch"
+        android:layout_alignRight="@+id/tEveSea"
+        android:layout_alignEnd="@+id/tEveSea"
+        android:layout_alignLeft="@+id/tEveSea"
+        android:layout_alignStart="@+id/tEveSea" />
+
+    <Button
+        android:text="Tech Events Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/tEveSea"
+        android:layout_below="@+id/iSearch"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

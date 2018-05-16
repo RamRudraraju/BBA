@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_student_catogiry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kittu.bba.StudentCatogiry">
+
+    <Button
+        android:text="Spring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/bSpring" />
+
+    <Button
+        android:text="Summer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bSpring"
+        android:layout_alignRight="@+id/bSpring"
+        android:layout_alignEnd="@+id/bSpring"
+        android:layout_marginTop="55dp"
+        android:id="@+id/bSummer" />
+
+    <Button
+        android:text="Fall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bSummer"
+        android:layout_alignRight="@+id/bSummer"
+        android:layout_alignEnd="@+id/bSummer"
+        android:layout_marginTop="58dp"
+        android:id="@+id/bFall" />
+</RelativeLayout>

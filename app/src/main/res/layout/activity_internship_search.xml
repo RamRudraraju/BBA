@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_internship_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kittu.bba.InternshipSearch">
+
+    <Button
+        android:text="undergrads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/bb1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Masters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/bb2"
+        android:layout_below="@+id/bb1"
+        android:layout_alignLeft="@+id/bb1"
+        android:layout_alignStart="@+id/bb1"
+        android:layout_alignRight="@+id/bb1"
+        android:layout_alignEnd="@+id/bb1" />
+
+    <Button
+        android:text="phd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/bb4"
+        android:layout_below="@+id/bb2"
+        android:layout_alignRight="@+id/bb1"
+        android:layout_alignEnd="@+id/bb1"
+        android:layout_alignLeft="@+id/bb2"
+        android:layout_alignStart="@+id/bb2" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BBA</string>
+
+    <string-array name="Birmingham">
+        <item>Barber Motorsports Park</item>
+        <item>Birmingham Zoo</item>
+        <item>Red Mountain</item>
+        <item>Ruffner Mountain</item>
+        <item>Sloss Furnaces</item>
+        <item>Vulcan Park</item>
+    </string-array>
+
+    <string-array name="BirminghamJobs">
+        <item>App Developers</item>
+        <item>Data analyst</item>
+        <item>Data Scientist</item>
+        <item>System Admin</item>
+        <item>Web Developer</item>
+        <item>Software Engineer</item>
+    </string-array>
+
+    <string-array name="BirminghamTechCompanies">
+        <item>CTS</item>
+        <item>Shipt</item>
+        <item>Virtue Technology</item>
+        <item>Tech Birmingham</item>
+    </string-array>
+
+    <string-array name="BirminghamSportEvents">
+        <item>Cricket</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+    </string-array>
+
+    <string-array name="TechEvents">
+        <item>Information Systems Summit-Iron City</item>
+        <item>Java Script Workshop – Innovation depot</item>
+    </string-array>
+
+
+</resources>
